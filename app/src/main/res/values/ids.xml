@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nameDisplay" type="id" />
+    <item name="categoryDisplay" type="id" />
+    <item name="book_button" type="id" />
+    <item name="diseaseDisplay" type="id" />
+    <item name="timeDisplay" type="id" />
+    <item name="dateDisplay" type="id" />
+    <item name="downloadPrescription" type="id" />
+    <item name="rateUser" type="id" />
+</resources>
