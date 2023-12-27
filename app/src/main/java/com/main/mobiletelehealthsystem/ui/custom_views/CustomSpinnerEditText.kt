@@ -1,4 +1,4 @@
-package com.mobiletelehealthsystem.presin.ui.custom_views
+package com.main.mobiletelehealthsystem.ui.custom_views
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,9 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
-import com.mobiletelehealthsystem.medify.R
-import com.mobiletelehealthsystem.medify.databinding.LayoutCustomSpinnerBinding
-import com.mobiletelehealthsystem.medify.utils.Utils.show
+import com.main.mobiletelehealthsystem.R
+import com.main.mobiletelehealthsystem.databinding.LayoutCustomSpinnerBinding
+import com.main.mobiletelehealthsystem.utils.Utils.show
 
 
 class CustomSpinnerEditText @JvmOverloads constructor(

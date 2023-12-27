@@ -1,4 +1,4 @@
-package com.mobiletelehealthsystem.presin.ui.custom_views
+package com.main.mobiletelehealthsystem.ui.custom_views
 
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
@@ -11,11 +11,11 @@ import android.view.ViewGroup
 import android.view.Window
 import androidx.fragment.app.DialogFragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.mobiletelehealthsystem.medify.adapter.CustomSpinnerAdapter
-import com.mobiletelehealthsystem.medify.databinding.LayoutCustomSearchSpinnerDialogBinding
-import com.mobiletelehealthsystem.medify.utils.Utils.hide
-import com.mobiletelehealthsystem.medify.utils.Utils.show
-import com.mobiletelehealthsystem.medify.utils.Utils.toStringWithoutSpaces
+import com.main.mobiletelehealthsystem.adapter.CustomSpinnerAdapter
+import com.main.mobiletelehealthsystem.databinding.LayoutCustomSearchSpinnerDialogBinding
+import com.main.mobiletelehealthsystem.utils.Utils.hide
+import com.main.mobiletelehealthsystem.utils.Utils.show
+import com.main.mobiletelehealthsystem.utils.Utils.toStringWithoutSpaces
 
 class CustomSearchSpinnerDialog(
     private val itemList: List<String>,

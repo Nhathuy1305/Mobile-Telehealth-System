@@ -1,14 +1,14 @@
-package com.mobiletelehealthsystem.medify.ui.introduction
+package com.main.mobiletelehealthsystem.ui.introduction
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.mobiletelehealthsystem.medify.ui.HomeActivity
-import com.mobiletelehealthsystem.medify.R
-import com.mobiletelehealthsystem.medify.ui.auth.signInScreen.SignInScreen
-import com.mobiletelehealthsystem.medify.utils.Logger
+import com.main.mobiletelehealthsystem.ui.HomeActivity
+import com.main.mobiletelehealthsystem.ui.auth.signInScreen.SignInScreen
+import com.main.mobiletelehealthsystem.utils.Logger
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import com.main.mobiletelehealthsystem.R
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
