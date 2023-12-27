@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".ui.mainFragments.settings.upi.UPImanager">
+
+    <TextView
+        android:id="@+id/nameDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/dm_sans_bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/upi_manager" />
+
+    <TextView
+        android:id="@+id/want_to_book_an_appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/dm_sans_medium"
+        android:text="@string/create_or_edit_your_upi"
+        android:textColor="@color/green_shade_light_2"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/nameDisplay"
+        app:layout_constraintTop_toBottomOf="@+id/nameDisplay" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/white_bar"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/want_to_book_an_appointment">
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:paddingHorizontal="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <EditText
+                android:id="@+id/upiName_pn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/editfield"
+                android:ems="10"
+                android:fontFamily="@font/dm_sans"
+                android:hint="Payee Name"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="126dp" />
+
+            <EditText
+                android:id="@+id/upiID_pa"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/editfield"
+                android:ems="10"
+                android:fontFamily="@font/dm_sans"
+                android:hint="UPI ID / VPA"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="97dp"
+                tools:layout_editor_absoluteY="208dp" />
+
+            <EditText
+                android:id="@+id/upiAmount_am"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/editfield"
+                android:ems="10"
+                android:fontFamily="@font/dm_sans"
+                android:hint="Amount"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="335dp" />
+
+            <EditText
+                android:id="@+id/upiMessage_tn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/editfield"
+                android:ems="10"
+                android:fontFamily="@font/dm_sans"
+                android:hint="Transaction Remark"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="106dp"
+                tools:layout_editor_absoluteY="459dp" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/generateUPI"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/primary_button"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Generate UPI"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout5"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout5"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+        <ImageView
+            android:id="@+id/qrPreview"
+            android:layout_width="259dp"
+            android:layout_height="262dp"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/generateUPI"
+            app:layout_constraintStart_toStartOf="@+id/generateUPI"
+            app:layout_constraintTop_toBottomOf="@+id/generateUPI"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/app_icon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

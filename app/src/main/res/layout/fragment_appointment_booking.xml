@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".ui.mainFragments.home.appointment_booking.AppointmentBookingFragment">
+
+    <TextView
+        android:id="@+id/nameDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/dm_sans_bold"
+        android:text="@string/book_an_appointment"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/want_to_book_an_appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/dm_sans_medium"
+        android:text="@string/please_fill_the_form_below"
+        android:textColor="@color/green_shade_light_2"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/nameDisplay"
+        app:layout_constraintTop_toBottomOf="@+id/nameDisplay" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_bar"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/want_to_book_an_appointment">
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/select_date"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="20dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:background="@drawable/editfield"-->
+<!--            android:drawableEnd="@drawable/date"-->
+<!--            android:ems="10"-->
+<!--            android:focusable="false"-->
+<!--            android:fontFamily="@font/dm_sans"-->
+<!--            android:hint="@string/select_date"-->
+<!--            android:padding="15dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textColorHint="@android:color/darker_gray"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.491"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/select_date_box"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:hint="@string/select_date"
+            android:textColorHint="@android:color/darker_gray"
+            app:boxBackgroundColor="#F5F8FA"
+            app:layout_constraintEnd_toEndOf="@+id/email_box"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/email_box"
+            app:layout_constraintTop_toBottomOf="@+id/email_box">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/select_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dm_sans"
+                android:drawableEnd="@drawable/date"
+                android:inputType="date"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/menu_time"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/select_time"
+            android:textColorHint="@android:color/darker_gray"
+            app:boxBackgroundColor="#F5F8FA"
+            app:layout_constraintEnd_toEndOf="@+id/select_date"
+            app:layout_constraintStart_toStartOf="@+id/select_date"
+            app:layout_constraintTop_toBottomOf="@+id/select_date">
+
+            <AutoCompleteTextView
+                android:id="@+id/time_dropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dm_sans"
+                android:inputType="none"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/menu_disease"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/disease_name"
+            android:textColorHint="@android:color/darker_gray"
+            app:boxBackgroundColor="#F5F8FA"
+            app:layout_constraintEnd_toEndOf="@+id/menu_time"
+            app:layout_constraintStart_toStartOf="@+id/menu_time"
+            app:layout_constraintTop_toBottomOf="@+id/menu_time">
+
+            <AutoCompleteTextView
+                android:id="@+id/disease_dropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dm_sans"
+                android:inputType="none"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/menu_situation"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/situation"
+            android:textColorHint="@android:color/darker_gray"
+            app:boxBackgroundColor="#F5F8FA"
+            app:layout_constraintEnd_toEndOf="@+id/menu_disease"
+            app:layout_constraintStart_toStartOf="@+id/menu_disease"
+            app:layout_constraintTop_toBottomOf="@+id/menu_disease">
+
+            <AutoCompleteTextView
+                android:id="@+id/situation_dropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dm_sans"
+                android:inputType="none"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/note_you_must_enter_the_correct_information_entering_wrong_information_might_lead_to_cancellation_of_your_future_appointments"
+            android:textColor="@android:color/holo_red_dark" />
+
+
+        <com.ncorti.slidetoact.SlideToActView
+            android:id="@+id/btn_finalbook"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:visibility="gone"
+            app:inner_color="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/menu_situation"
+            app:layout_constraintStart_toStartOf="@+id/menu_situation"
+            app:layout_constraintTop_toBottomOf="@+id/menu_situation"
+            app:outer_color="@color/green_shade_dark_1"
+            app:text="@string/confirm_your_appointment"
+            app:text_color="@color/white" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

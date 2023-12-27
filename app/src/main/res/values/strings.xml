@@ -1,3 +1,225 @@
 <resources>
-    <string name="app_name">MOBILE TELEHEALTH SYSTEM</string>
+    <string name="app_name">Medify</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="reminder_text">%1$s: %2$s pill(s)</string>
+    <string name="pill_time_reminders_format">%1$s at %2$s</string>
+    <string name="it_is_time_to_take">It is time to take %1$s pill(s)!</string>
+    <string name="dropdown_label">Disease Name:</string>
+    <string name="disease_name">Disease Name</string>
+    <string name="specialization">Specialization</string>
+    <string name="mailTo">mailto:geekymusketeers2024@gmail.com?Subject=Medify%20Android%20application%20feedback%20main&amp;Body=Your%20feedback%20is%20important%20to%20us%21</string>
+    <string name="situation">Situation</string>
+    <string name="cardiologist">Cardiologist</string>
+    <string name="dentist">Dentist</string>
+    <string name="ent_specialist">ENT specialist</string>
+    <string name="obstetrician_gynaecologist">Obstetrician/Gynaecologist</string>
+    <string name="orthopaedic_surgeon">Orthopaedic surgeon</string>
+    <string name="psychiatrists">Psychiatrists</string>
+    <string name="radiologist">Radiologist</string>
+    <string name="pulmonologist">Pulmonologist</string>
+    <string name="neurologist">Neurologist</string>
+    <string name="allergists">Allergists</string>
+    <string name="gastroenterologists">Gastroenterologists</string>
+    <string name="doctors">Doctors</string>
+    <string name="category">Category</string>
+
+    <string-array name="all_specialists">
+        <item>All</item>
+        <item>Cardiologist</item>
+        <item>Dentist</item>
+        <item>ENT specialist</item>
+        <item>Obstetrician/Gynaecologist</item>
+        <item>Orthopaedic surgeon</item>
+        <item>Psychiatrists</item>
+        <item>Radiologist</item>
+        <item>Pulmonologist</item>
+        <item>Neurologist</item>
+        <item>Allergists</item>
+        <item>Orthopaedic Surgeon</item>
+        <item>Gastroenterologists</item>
+    </string-array>
+
+    <string-array name="dropdown_items">
+        <item>Fever</item>
+        <item>Cold</item>
+        <item>Diarrhea</item>
+        <item>Allergies</item>
+        <item>Stomach Aches</item>
+    </string-array>
+    <string name="title_activity_summary">SummaryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="press_once_again_to_exit">Press once again to exit</string>
+
+
+    <!-- Strings used for the Disease Names -->
+    <string name="disease_not_sure">Not sure</string>
+
+    <!-- Cardiovascular diseases -->
+    <string name="disease_high_blood_pressure">High blood pressure</string>
+    <string name="disease_high_cholesterol">High cholesterol</string>
+    <string name="disease_angina">Angina (chest pain)</string>
+    <string name="disease_heart_rhythm_disorders">Heart rhythm disorders</string>
+    <string name="disease_atrial_fibrillation">Atrial fibrillation</string>
+
+    <!-- Dental diseases -->
+    <string name="disease_tooth_decay">Tooth Decay/Cavities</string>
+    <string name="disease_gum_disease">Gum Disease</string>
+    <string name="disease_cracked_teeth">Cracked or Broken Teeth</string>
+    <string name="disease_root_infection">Root Infection</string>
+    <string name="disease_tooth_loss">Tooth Loss</string>
+
+    <!-- Ear, nose, and throat diseases -->
+    <string name="disease_hearing_problems">Hearing problems</string>
+    <string name="disease_allergies">Allergies</string>
+    <string name="disease_nasal_congestion">Nasal congestion</string>
+    <string name="disease_tonsil_infections">Tonsil infections</string>
+    <string name="disease_enlarged_tonsils">Enlarged tonsils</string>
+
+    <!-- Women's health-related diseases -->
+    <string name="disease_pregnancy_bleeding">Bleeding during pregnancy</string>
+    <string name="disease_female_infertility">Female infertility</string>
+
+    <string name="disease_bipolar_disorder">Bipolar disorder</string>
+    <string name="disease_depression">Depression</string>
+    <string name="disease_eating_disorder">Eating disorder</string>
+    <string name="disease_mood_disorders">Mood disorders</string>
+    <string name="disease_panic_disorder">Panic disorder</string>
+    <string name="disease_sleep_disorders">Sleep disorders</string>
+
+    <string name="disease_heart_disease_pregnancy">Heart disease in pregnancy</string>
+    <string name="disease_menopause">Menopause</string>
+    <string name="disease_menstrual_cramps">Menstrual cramps</string>
+    <string name="disease_miscarriage">Miscarriage</string>
+    <string name="disease_ovarian_cysts">Ovarian cysts</string>
+    <string name="disease_vaginal_bleeding">Vaginal bleeding</string>
+
+    <string name="disease_bone_fractures">Bone fractures</string>
+    <string name="disease_muscle_strains">Muscle strains</string>
+    <string name="disease_joint_back_pain">Joint or back pain</string>
+    <string name="disease_injuries_tendons_ligaments">Injuries to tendons or ligaments</string>
+    <string name="disease_limb_abnormalities">Limb abnormalities</string>
+    <string name="disease_bone_cancer">Bone cancer</string>
+
+    <string name="disease_alcohol_use_disorder">Alcohol use disorder</string>
+    <string name="disease_alzheimers">Alzheimer\'s disease</string>
+    <string name="disease_anxiety_disorders">Anxiety disorders</string>
+
+
+    <string name="disease_brain_tumor">Brain tumor</string>
+    <string name="disease_breast_cancer">Breast cancer</string>
+    <string name="disease_kidney_stones">Kidney stones</string>
+    <string name="disease_liver_tumors">Liver tumors</string>
+
+
+    <!-- Strings used for the Pain Levels or Conditions -->
+    <string name="condition_severe_pain">Severe Pain</string>
+    <string name="condition_mild_pain">Mild Pain</string>
+    <string name="condition_no_pain">No Pain</string>
+    <string name="book_an_appointment">Book an appointment</string>
+    <string name="please_upload_your_prescription_in_settings_tab">Please upload your prescription in settings tab</string>
+    <string name="want_to_book_an_appointment">Want to book an appointment\?</string>
+    <string name="book">Book</string>
+    <string name="doctor_s_name_email_or_phone">Doctor\'s name, email or phone</string>
+    <string name="appointment_summary">Appointment Summary</string>
+    <string name="successfully_booked_an_appointment">Successfully booked an appointment</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="please_fill_the_form_below">Please fill the form below</string>
+    <string name="select_time">Select Time</string>
+    <string name="select_date">Select Date</string>
+    <string name="confirm_your_appointment">Confirm your appointment</string>
+    <string name="note_you_must_enter_the_correct_information_entering_wrong_information_might_lead_to_cancellation_of_your_future_appointments">Note: You must enter the correct information. Entering wrong information might lead to cancellation of your future appointments.</string>
+    <string name="mon_fri_09_00_21_00">Mon - Fri 09:00 : 21:00</string>
+    <string name="working_hours">Working hours</string>
+    <string name="your_appointment">Your Appointment</string>
+    <string name="patient_queue">Patient Queue</string>
+    <string name="settings">Settings</string>
+    <string name="configure_changes">Configure changes</string>
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="add_data">Add data</string>
+    <string name="biological_reference_80_120">Biological Reference: 80–120</string>
+    <string name="min_loading_max_loading">Min: Loading, Max: Loading</string>
+    <string name="sugar_fasting">Sugar Fasting</string>
+    <string name="biological_reference_70_100">Biological Reference: 70–100</string>
+    <string name="sugar_pp">Sugar PP</string>
+    <string name="cholesterol">Cholesterol</string>
+    <string name="rate_user">Rate user</string>
+    <string name="submit_rating">Submit Rating</string>
+    <string name="dispute_a_rating">Dispute a Rating</string>
+    <string name="report_any_unfair_or_inaccurate_ratings_you_have_received_we_will_review_your_report_and_take_appropriate_action">Report any unfair or inaccurate ratings you have received. We will review your report and take appropriate action.</string>
+    <string name="enter_your_title_here">Enter your title here \*</string>
+    <string name="reason_for_dispute">Reason for Dispute \*</string>
+    <string name="submit_dispute">Submit Dispute</string>
+    <string name="enter_your_comment_here_optional">Enter your comment here (optional)</string>
+    <string name="create_or_edit_your_upi">Create or edit your UPI</string>
+    <string name="upi_manager">UPI Manager</string>
+    <string name="add_prescription">Add Prescription</string>
+    <string name="select_prescription">Select Prescription</string>
+    <string name="upload_file">Upload file</string>
+    <string name="file_title">File title</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="profile">Profile</string>
+    <string name="optional">Optional</string>
+    <string name="search">Search</string>
+    <string name="register">Register</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="password_hint">***************</string>
+    <string name="phone_number_hint">+91 9876543210</string>
+    <string name="email_hint">johndoe123@gmail.com</string>
+    <string name="email">Email</string>
+    <string name="name_hint">John Doe</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="next_step">Next Step</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login_text">Login</string>
+    <string name="profile_details">Profile Details</string>
+    <string name="address_hint">42/C Devanagari, Bangalore - XXXXXX</string>
+    <string name="is_doctor_hint">No, I\'m not a Doctor</string>
+    <string name="are_you_a_doctor">Are you a Doctor?</string>
+    <string name="address">Address</string>
+    <string name="specialization_hint">Eg. Cardiologist</string>
+    <string name="create_account">Create Account</string>
+    <string name="your_database_was_created">Your Database was Created</string>
+    <string name="account_creation_failed">Account Creation Failed</string>
+    <string name="database_creation_failed">Database Creation Failed</string>
+    <string name="account_created_successfully">Account Created Successfully</string>
+    <string name="please_select_your_profession">Please select your profession</string>
+    <string name="please_select_your_specialization">Please select your Specialization</string>
+    <string name="please_select_your_gender">Please select your gender</string>
+    <string name="login">Login</string>
+    <string name="enter_your_details_to_get_started">Enter your details to get started</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="logged_in">Logged in</string>
+    <string name="send_reset_mail">Send Reset Mail</string>
+    <string name="enter_your_registered_email_address">Enter your registered email address</string>
+    <string name="upload_prescription">Upload Prescription</string>
+    <string name="upi_qr">UPI QR</string>
+    <string name="about_us">About Us</string>
+    <string name="feedback">Feedback</string>
+    <string name="need_help">Need help?</string>
+    <string name="logout">Logout</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="invalid_name">Invalid Name</string>
+    <string name="invalid_age">Invalid Age</string>
+    <string name="invalid_phone_number">Invalid Phone Number</string>
+    <string name="invalid_address">Invalid Address</string>
+    <string name="customize_your_profile">Customize your profile</string>
+    <string name="profile_updated_successfully">Profile updated Successfully!</string>
+    <string name="failed_to_update_profile">Failed to update Profile!</string>
+    <string name="no_address_found">No address found</string>
+    <string name="welcome_to_medify">Welcome to Medify</string>
+    <string name="description">Medify is an Android application that not only solves the issue of the patients as users, but also solves the problems of the doctors as well.\nThe app offers users to book an appointment with the doctor that are registered in the app already.\nThe waiting queue is sorted according to the priority and not ‘First Come First Serve’ which allows all the patients to get equal priority.\nUsers can monitor their health data which is shown in a chart of last 5 data from their report.</string>
+    <string name="needHelpDescription">Medify is an Android application that not only solves the issue of the patients as users, but also solves the problems of the doctors as well.\nBook an appointment with ease by answering some questions regarding your health issue.\nDo not need the carry the previous prescription to doctor just upload it here and when you book appointment the doctor can easily see your previous prescription.</string>
+
+
 </resources>
