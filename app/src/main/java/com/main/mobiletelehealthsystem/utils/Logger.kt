@@ -1,7 +1,7 @@
-package com.geekymusketeers.medify.utils
+package com.main.mobiletelehealthsystem.utils
 
 import android.util.Log
-import com.geekymusketeers.medify.BuildConfig
+import com.main.mobiletelehealthsystem.BuildConfig
 
 
 object Logger {

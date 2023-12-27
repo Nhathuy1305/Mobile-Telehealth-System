@@ -1,8 +1,9 @@
-package com.geekymusketeers.medify.utils.shared_preference
+package com.main.mobiletelehealthsystem.utils.shared_preference
 
 import android.content.Context
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.shared_preference.SharedPreferenceKeys
+import com.main.mobiletelehealthsystem.utils.shared_preference.SharedPreference
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.shared_preference.SharedPreferenceKeys
 import java.util.Locale
 
 /**

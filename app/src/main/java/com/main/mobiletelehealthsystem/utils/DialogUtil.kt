@@ -1,11 +1,11 @@
-package com.geekymusketeers.medify.utils
+package com.main.mobiletelehealthsystem.utils
 
 import android.app.Activity
 import android.content.Context
 import android.view.View
-import com.geekymusketeers.medify.R
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
+import com.main.mobiletelehealthsystem.R
 
 
 object DialogUtil {

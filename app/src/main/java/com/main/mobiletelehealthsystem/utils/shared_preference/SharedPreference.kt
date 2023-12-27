@@ -1,9 +1,11 @@
-package com.geekymusketeers.medify.utils.shared_preference
+package com.main.mobiletelehealthsystem.utils.shared_preference
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.geekymusketeers.medify.utils.Logger
-import com.geekymusketeers.medify.utils.SharedPrefsExtension.put
+import android.system.Os.remove
+import com.main.mobiletelehealthsystem.utils.Logger
+import com.main.mobiletelehealthsystem.utils.SharedPrefsExtension.put
+import com.main.mobiletelehealthsystem.utils.shared_preference.IPreferences
 import com.google.gson.Gson
 
 open class SharedPreference(context: Context, preferenceName: String) : IPreferences {

@@ -1,8 +1,8 @@
-package com.geekymusketeers.medify.utils.shared_preference
+package com.main.mobiletelehealthsystem.utils.shared_preference
 
 import android.content.Context
-import com.geekymusketeers.medify.model.User
-import com.geekymusketeers.medify.utils.Constants
+import com.main.mobiletelehealthsystem.model.User
+import com.main.mobiletelehealthsystem.utils.Constants
 
 /**
  * encrypted shared preference class for user-session related data

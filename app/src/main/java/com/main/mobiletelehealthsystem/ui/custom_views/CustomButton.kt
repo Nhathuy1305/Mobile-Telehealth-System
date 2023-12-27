@@ -1,4 +1,4 @@
-package com.mobiletelehealthsystem.presin.ui.custom_views
+package com.main.mobiletelehealthsystem.ui.custom_views
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,10 +7,10 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
-import com.mobiletelehealthsystem.medify.R
-import com.mobiletelehealthsystem.medify.databinding.LayoutPrimaryButtonBinding
-import com.mobiletelehealthsystem.medify.utils.Utils.hide
-import com.mobiletelehealthsystem.medify.utils.Utils.show
+import com.main.mobiletelehealthsystem.R
+import com.main.mobiletelehealthsystem.databinding.LayoutPrimaryButtonBinding
+import com.main.mobiletelehealthsystem.utils.Utils.hide
+import com.main.mobiletelehealthsystem.utils.Utils.show
 
 
 class CustomButton @JvmOverloads constructor(

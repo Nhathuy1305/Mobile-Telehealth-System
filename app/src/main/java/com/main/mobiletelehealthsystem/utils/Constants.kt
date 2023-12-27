@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.utils
+package com.main.mobiletelehealthsystem.utils
 
 
 object Constants {
