@@ -2,7 +2,7 @@ package com.main.mobiletelehealthsystem.utils
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import com.geekymusketeers.medify.model.User
+import com.main.mobiletelehealthsystem.model.User
 import com.google.gson.Gson
 
 

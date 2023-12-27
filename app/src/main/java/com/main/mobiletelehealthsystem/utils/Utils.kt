@@ -8,10 +8,10 @@ import android.net.Uri
 import android.view.View
 import android.widget.Toast
 import androidx.core.content.ContextCompat.startActivity
-import com.geekymusketeers.medify.R
-import com.geekymusketeers.medify.model.Doctor
-import com.geekymusketeers.medify.model.Gender
-import com.geekymusketeers.medify.model.Specialist
+import com.main.mobiletelehealthsystem.R
+import com.main.mobiletelehealthsystem.model.Doctor
+import com.main.mobiletelehealthsystem.model.Gender
+import com.main.mobiletelehealthsystem.model.Specialist
 
 
 object Utils {
