@@ -1,14 +1,16 @@
-package com.geekymusketeers.medify.utils.shared_preference
+package com.main.mobiletelehealthsystem.utils.shared_preference
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.os.Build
+import android.system.Os.remove
 import androidx.collection.LruCache
 import androidx.security.crypto.EncryptedSharedPreferences
 import androidx.security.crypto.MasterKeys
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.Logger
-import com.geekymusketeers.medify.utils.SharedPrefsExtension.put
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.Logger
+import com.main.mobiletelehealthsystem.utils.SharedPrefsExtension.put
+import com.main.mobiletelehealthsystem.utils.shared_preference.IPreferences
 import com.google.gson.Gson
 
 open class EncryptedSharedPreference(

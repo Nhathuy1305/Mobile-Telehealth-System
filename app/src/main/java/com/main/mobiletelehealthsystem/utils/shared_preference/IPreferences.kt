@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.utils.shared_preference
+package com.main.mobiletelehealthsystem.utils.shared_preference
 
 import android.content.SharedPreferences
 import com.google.gson.Gson
