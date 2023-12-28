@@ -7,6 +7,8 @@ import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import com.main.mobiletelehealthsystem.R
+
 import com.main.mobiletelehealthsystem.base.ViewModelFactory
 import com.main.mobiletelehealthsystem.databinding.ActivitySignUpBinding
 import com.main.mobiletelehealthsystem.model.Doctor
@@ -14,6 +16,8 @@ import com.main.mobiletelehealthsystem.model.User
 import com.main.mobiletelehealthsystem.ui.auth.signInScreen.SignInScreen
 import com.main.mobiletelehealthsystem.utils.Constants
 import com.main.mobiletelehealthsystem.utils.Logger
+import com.main.mobiletelehealthsystem.utils.Utils.getListOfIsDoctor
+import com.main.mobiletelehealthsystem.utils.Utils.getListOfSpecialization
 
 
 class SignUpSecondScreen : AppCompatActivity() {

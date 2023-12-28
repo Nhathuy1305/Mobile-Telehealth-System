@@ -8,7 +8,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.core.content.res.ResourcesCompat
-
+import com.main.mobiletelehealthsystem.R
 import com.main.mobiletelehealthsystem.ui.HomeActivity
 import com.main.mobiletelehealthsystem.ui.auth.forgotPassword.ForgotPasswordActivity
 import com.main.mobiletelehealthsystem.ui.auth.signUpScreen.firstScreen.SignUpFirstScreen

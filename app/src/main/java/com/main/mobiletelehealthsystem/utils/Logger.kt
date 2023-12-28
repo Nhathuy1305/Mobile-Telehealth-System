@@ -1,7 +1,7 @@
 package com.main.mobiletelehealthsystem.utils
 
 import android.util.Log
-import com.main.mobiletelehealthsystem.BuildConfig
+//import com.main.mobiletelehealthsystem.BuildConfig
 
 
 object Logger {
@@ -14,11 +14,11 @@ object Logger {
         Log.d("", value)
     }
 
-    fun debugLog(tag: String?, msg: String?) {
-        if (BuildConfig.DEBUG) {
-            Log.d(tag, msg!!)
-        }
-    }
+//    fun debugLog(tag: String?, msg: String?) {
+//        if (BuildConfig.DEBUG) {
+//            Log.d(tag, msg!!)
+//        }
+//    }
 
     fun logException(tag: String, exception: Exception, logLevel: LogLevel, logToCrashlytics : Boolean = false) {
         when (logLevel) {

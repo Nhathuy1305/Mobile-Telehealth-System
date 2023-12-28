@@ -9,12 +9,18 @@ import androidx.activity.viewModels
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.res.ResourcesCompat
-
 import com.google.android.material.datepicker.CalendarConstraints
 import com.google.android.material.datepicker.DateValidatorPointBackward
 import com.google.android.material.datepicker.MaterialDatePicker
+import com.main.mobiletelehealthsystem.R
 import com.main.mobiletelehealthsystem.base.ViewModelFactory
 import com.main.mobiletelehealthsystem.databinding.ActivitySignUpFirstBinding
+import com.main.mobiletelehealthsystem.model.Gender
+import com.main.mobiletelehealthsystem.ui.auth.signUpScreen.SecondScreen.SignUpSecondScreen
+import com.main.mobiletelehealthsystem.utils.DateTimeExtension
+import com.main.mobiletelehealthsystem.utils.Utils.getListOfGenders
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.Logger
 import java.util.Calendar
 import java.util.Date
 
