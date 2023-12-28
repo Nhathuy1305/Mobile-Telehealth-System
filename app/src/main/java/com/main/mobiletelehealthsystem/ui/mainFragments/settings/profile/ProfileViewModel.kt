@@ -1,17 +1,17 @@
-package com.geekymusketeers.medify.ui.mainFragments.settings.profile
+package com.main.mobiletelehealthsystem.ui.mainFragments.settings.profile
 
 import android.app.Application
 import android.content.SharedPreferences
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.geekymusketeers.medify.base.BaseViewModel
-import com.geekymusketeers.medify.model.Doctor
-import com.geekymusketeers.medify.model.User
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.SharedPrefsExtension.getUserFromSharedPrefs
-import com.geekymusketeers.medify.utils.SharedPrefsExtension.saveUserToSharedPrefs
-import com.geekymusketeers.medify.utils.Validator.Companion.isValidName
-import com.geekymusketeers.medify.utils.Validator.Companion.isValidPhone
+import com.main.mobiletelehealthsystem.base.BaseViewModel
+import com.main.mobiletelehealthsystem.model.Doctor
+import com.main.mobiletelehealthsystem.model.User
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.SharedPrefsExtension.getUserFromSharedPrefs
+import com.main.mobiletelehealthsystem.utils.SharedPrefsExtension.saveUserToSharedPrefs
+import com.main.mobiletelehealthsystem.utils.Validator.Companion.isValidName
+import com.main.mobiletelehealthsystem.utils.Validator.Companion.isValidPhone
 import com.google.firebase.database.FirebaseDatabase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

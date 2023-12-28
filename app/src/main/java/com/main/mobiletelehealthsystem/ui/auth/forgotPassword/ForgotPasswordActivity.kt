@@ -1,11 +1,11 @@
-package com.geekymusketeers.medify.ui.auth.forgotPassword
+package com.main.mobiletelehealthsystem.ui.auth.forgotPassword
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.viewModels
-import com.geekymusketeers.medify.base.ViewModelFactory
-import com.geekymusketeers.medify.databinding.ActivityForgotPasswordBinding
+import com.main.mobiletelehealthsystem.base.ViewModelFactory
+import com.main.mobiletelehealthsystem.databinding.ActivityForgotPasswordBinding
 
 class ForgotPasswordActivity : AppCompatActivity() {
 

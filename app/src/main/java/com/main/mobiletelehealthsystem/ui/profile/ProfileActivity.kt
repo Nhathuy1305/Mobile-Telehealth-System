@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.profile
+package com.main.mobiletelehealthsystem.ui.profile
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,10 +6,10 @@ import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.geekymusketeers.medify.databinding.ActivityProfileBinding
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.SharedPrefsExtension.getUserFromSharedPrefs
 import com.google.firebase.database.*
+import com.main.mobiletelehealthsystem.databinding.ActivityProfileBinding
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.SharedPrefsExtension.getUserFromSharedPrefs
 
 class ProfileActivity : AppCompatActivity() {
 

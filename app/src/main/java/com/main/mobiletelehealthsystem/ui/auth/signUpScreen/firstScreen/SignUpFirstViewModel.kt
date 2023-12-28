@@ -1,13 +1,13 @@
-package com.geekymusketeers.medify.ui.auth.signUpScreen.firstScreen
+package com.main.mobiletelehealthsystem.ui.auth.signUpScreen.firstScreen
 
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
-import com.geekymusketeers.medify.base.BaseViewModel
-import com.geekymusketeers.medify.model.User
-import com.geekymusketeers.medify.utils.Validator.Companion.isValidEmail
-import com.geekymusketeers.medify.utils.Validator.Companion.isValidName
-import com.geekymusketeers.medify.utils.Validator.Companion.isValidPassword
-import com.geekymusketeers.medify.utils.Validator.Companion.isValidPhone
+import com.main.mobiletelehealthsystem.base.BaseViewModel
+import com.main.mobiletelehealthsystem.model.User
+import com.main.mobiletelehealthsystem.utils.Validator.Companion.isValidEmail
+import com.main.mobiletelehealthsystem.utils.Validator.Companion.isValidName
+import com.main.mobiletelehealthsystem.utils.Validator.Companion.isValidPassword
+import com.main.mobiletelehealthsystem.utils.Validator.Companion.isValidPhone
 
 
 class SignUpFirstViewModel(application: Application) : BaseViewModel(application) {

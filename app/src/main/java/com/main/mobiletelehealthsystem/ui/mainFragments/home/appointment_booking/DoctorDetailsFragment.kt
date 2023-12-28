@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.mainFragments.home.appointment_booking
+package com.main.mobiletelehealthsystem.ui.mainFragments.home.appointment_booking
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,11 +8,11 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.geekymusketeers.medify.base.ViewModelFactory
-import com.geekymusketeers.medify.databinding.FragmentDoctorDetailsBinding
-import com.geekymusketeers.medify.model.User
-import com.geekymusketeers.medify.utils.Logger
-import com.geekymusketeers.medify.utils.Utils
+import com.main.mobiletelehealthsystem.base.ViewModelFactory
+import com.main.mobiletelehealthsystem.databinding.FragmentDoctorDetailsBinding
+import com.main.mobiletelehealthsystem.model.User
+import com.main.mobiletelehealthsystem.utils.Logger
+import com.main.mobiletelehealthsystem.utils.Utils
 
 
 class DoctorDetailsFragment : Fragment() {

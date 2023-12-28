@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.auth.signUpScreen.SecondScreen
+package com.main.mobiletelehealthsystem.ui.auth.signUpScreen.SecondScreen
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,16 +7,14 @@ import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import com.geekymusketeers.medify.R
-import com.geekymusketeers.medify.base.ViewModelFactory
-import com.geekymusketeers.medify.model.User
-import com.geekymusketeers.medify.databinding.ActivitySignUpBinding
-import com.geekymusketeers.medify.model.Doctor
-import com.geekymusketeers.medify.ui.auth.signInScreen.SignInScreen
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.Logger
-import com.geekymusketeers.medify.utils.Utils.getListOfIsDoctor
-import com.geekymusketeers.medify.utils.Utils.getListOfSpecialization
+import com.main.mobiletelehealthsystem.base.ViewModelFactory
+import com.main.mobiletelehealthsystem.databinding.ActivitySignUpBinding
+import com.main.mobiletelehealthsystem.model.Doctor
+import com.main.mobiletelehealthsystem.model.User
+import com.main.mobiletelehealthsystem.ui.auth.signInScreen.SignInScreen
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.Logger
+
 
 class SignUpSecondScreen : AppCompatActivity() {
 

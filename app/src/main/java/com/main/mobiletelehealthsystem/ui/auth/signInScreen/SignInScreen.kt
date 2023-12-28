@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.auth.signInScreen
+package com.main.mobiletelehealthsystem.ui.auth.signInScreen
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,13 +8,13 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.core.content.res.ResourcesCompat
-import com.geekymusketeers.medify.R
-import com.geekymusketeers.medify.base.ViewModelFactory
-import com.geekymusketeers.medify.databinding.ActivitySignInBinding
-import com.geekymusketeers.medify.ui.HomeActivity
-import com.geekymusketeers.medify.ui.auth.forgotPassword.ForgotPasswordActivity
-import com.geekymusketeers.medify.ui.auth.signUpScreen.firstScreen.SignUpFirstScreen
-import com.geekymusketeers.medify.utils.Constants
+
+import com.main.mobiletelehealthsystem.ui.HomeActivity
+import com.main.mobiletelehealthsystem.ui.auth.forgotPassword.ForgotPasswordActivity
+import com.main.mobiletelehealthsystem.ui.auth.signUpScreen.firstScreen.SignUpFirstScreen
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.base.ViewModelFactory
+import com.main.mobiletelehealthsystem.databinding.ActivitySignInBinding
 
 class SignInScreen : AppCompatActivity() {
 

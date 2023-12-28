@@ -1,8 +1,8 @@
-package com.geekymusketeers.medify.ui.mainFragments.home.appointment_booking
+package com.main.mobiletelehealthsystem.ui.mainFragments.home.appointment_booking
 
 import android.app.Application
-import com.geekymusketeers.medify.base.BaseViewModel
-import com.geekymusketeers.medify.model.User
+import com.main.mobiletelehealthsystem.base.BaseViewModel
+import com.main.mobiletelehealthsystem.model.User
 
 class DoctorDetailsViewModel(application: Application) : BaseViewModel(application) {
 

@@ -1,12 +1,12 @@
-package com.geekymusketeers.medify.ui.mainFragments.appointments
+package com.main.mobiletelehealthsystem.ui.mainFragments.appointments
 
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
-import com.geekymusketeers.medify.base.BaseViewModel
-import com.geekymusketeers.medify.model.DoctorAppointment
-import com.geekymusketeers.medify.model.Rating
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.Logger
+import com.main.mobiletelehealthsystem.base.BaseViewModel
+import com.main.mobiletelehealthsystem.model.DoctorAppointment
+import com.main.mobiletelehealthsystem.model.Rating
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.Logger
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase

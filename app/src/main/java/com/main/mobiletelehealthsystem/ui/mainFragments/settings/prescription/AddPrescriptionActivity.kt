@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.mainFragments.settings.prescription
+package com.main.mobiletelehealthsystem.ui.mainFragments.settings.prescription
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -11,7 +11,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.geekymusketeers.medify.databinding.ActivityAddPrescriptionBinding
+import com.main.mobiletelehealthsystem.databinding.ActivityAddPrescriptionBinding
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage

@@ -1,16 +1,16 @@
-package com.geekymusketeers.medify.ui.mainFragments.home
+package com.main.mobiletelehealthsystem.ui.mainFragments.home
 
 import android.app.Application
 import android.content.SharedPreferences
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.geekymusketeers.medify.base.BaseViewModel
-import com.geekymusketeers.medify.model.Doctor
-import com.geekymusketeers.medify.model.User
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.Logger
-import com.geekymusketeers.medify.utils.SharedPrefsExtension.getUserFromSharedPrefs
+import com.main.mobiletelehealthsystem.base.BaseViewModel
+import com.main.mobiletelehealthsystem.model.Doctor
+import com.main.mobiletelehealthsystem.model.User
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.Logger
+import com.main.mobiletelehealthsystem.utils.SharedPrefsExtension.getUserFromSharedPrefs
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase

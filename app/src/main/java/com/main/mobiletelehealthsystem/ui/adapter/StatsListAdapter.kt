@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.adapter
+package com.main.mobiletelehealthsystem.ui.adapter
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -6,9 +6,10 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
-import com.geekymusketeers.medify.databinding.StatiscticsCardListBinding
-import com.geekymusketeers.medify.model.HealthData
-import com.geekymusketeers.medify.utils.DateTimeExtension.convertTimestampToDateTime
+import com.main.mobiletelehealthsystem.databinding.StatiscticsCardListBinding
+
+import com.main.mobiletelehealthsystem.model.HealthData
+import com.main.mobiletelehealthsystem.utils.DateTimeExtension.convertTimestampToDateTime
 
 
 class StatsListAdapter(

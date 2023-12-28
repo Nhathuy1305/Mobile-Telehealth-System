@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.profile
+package com.main.mobiletelehealthsystem.ui.profile
 
 import android.content.Context
 import android.content.Intent
@@ -6,10 +6,11 @@ import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.geekymusketeers.medify.ui.mainFragments.settings.prescription.AddPrescriptionActivity
-import com.geekymusketeers.medify.databinding.ActivityEditProfileBinding
+import com.main.mobiletelehealthsystem.ui.mainFragments.settings.prescription.AddPrescriptionActivity
+
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import com.main.mobiletelehealthsystem.databinding.ActivityEditProfileBinding
 
 class EditProfileActivity : AppCompatActivity() {
 

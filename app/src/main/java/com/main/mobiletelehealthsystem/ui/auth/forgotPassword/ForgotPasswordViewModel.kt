@@ -1,9 +1,10 @@
-package com.geekymusketeers.medify.ui.auth.forgotPassword
+package com.main.mobiletelehealthsystem.ui.auth.forgotPassword
 
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
-import com.geekymusketeers.medify.base.BaseViewModel
+
 import com.google.firebase.auth.FirebaseAuth
+import com.main.mobiletelehealthsystem.base.BaseViewModel
 
 
 class ForgotPasswordViewModel(application: Application) : BaseViewModel(application) {

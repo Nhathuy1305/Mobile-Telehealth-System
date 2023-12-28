@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.mainFragments.settings.upi
+package com.main.mobiletelehealthsystem.ui.mainFragments.settings.upi
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -9,8 +9,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import androidx.core.view.isVisible
-import com.geekymusketeers.medify.databinding.ActivityUpimanagerBinding
-import com.geekymusketeers.medify.utils.Encryption
+import com.main.mobiletelehealthsystem.databinding.ActivityUpimanagerBinding
+import com.main.mobiletelehealthsystem.utils.Encryption
 import com.google.zxing.BarcodeFormat
 import com.google.zxing.EncodeHintType
 import com.google.zxing.WriterException

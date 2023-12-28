@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.auth.signUpScreen.firstScreen
+package com.main.mobiletelehealthsystem.ui.auth.signUpScreen.firstScreen
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -9,18 +9,12 @@ import androidx.activity.viewModels
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.res.ResourcesCompat
-import com.geekymusketeers.medify.R
-import com.geekymusketeers.medify.base.ViewModelFactory
-import com.geekymusketeers.medify.databinding.ActivitySignUpFirstBinding
-import com.geekymusketeers.medify.model.Gender
-import com.geekymusketeers.medify.ui.auth.signUpScreen.SecondScreen.SignUpSecondScreen
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.DateTimeExtension
-import com.geekymusketeers.medify.utils.Logger
-import com.geekymusketeers.medify.utils.Utils.getListOfGenders
+
 import com.google.android.material.datepicker.CalendarConstraints
 import com.google.android.material.datepicker.DateValidatorPointBackward
 import com.google.android.material.datepicker.MaterialDatePicker
+import com.main.mobiletelehealthsystem.base.ViewModelFactory
+import com.main.mobiletelehealthsystem.databinding.ActivitySignUpFirstBinding
 import java.util.Calendar
 import java.util.Date
 

@@ -1,17 +1,17 @@
-package com.geekymusketeers.medify.ui.mainFragments.home.appointment_booking
+package com.main.mobiletelehealthsystem.ui.mainFragments.home.appointment_booking
 
 import android.app.Application
 import android.content.SharedPreferences
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.geekymusketeers.medify.base.BaseViewModel
-import com.geekymusketeers.medify.model.Summary
-import com.geekymusketeers.medify.model.User
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.Logger
-import com.geekymusketeers.medify.utils.SharedPrefsExtension.getUserFromSharedPrefs
-import com.geekymusketeers.medify.utils.Utils
+import com.main.mobiletelehealthsystem.base.BaseViewModel
+import com.main.mobiletelehealthsystem.model.Summary
+import com.main.mobiletelehealthsystem.model.User
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.Logger
+import com.main.mobiletelehealthsystem.utils.SharedPrefsExtension.getUserFromSharedPrefs
+import com.main.mobiletelehealthsystem.utils.Utils
 import com.google.firebase.database.FirebaseDatabase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async

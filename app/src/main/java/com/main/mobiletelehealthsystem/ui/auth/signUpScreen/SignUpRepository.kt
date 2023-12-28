@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.auth.signUpScreen
+package com.main.mobiletelehealthsystem.ui.auth.signUpScreen
 
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthUserCollisionException

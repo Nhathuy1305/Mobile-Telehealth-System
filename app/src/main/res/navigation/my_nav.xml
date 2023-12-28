@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/home"
-        android:name="com.geekymusketeers.medify.ui.mainFragments.home.HomeFragment"
+        android:name="com.main.mobiletelehealthsystem.ui.mainFragments.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/settings"
-        android:name="com.geekymusketeers.medify.ui.mainFragments.settings.SettingsFragment"
+        android:name="com.main.mobiletelehealthsystem.ui.mainFragments.settings.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" >
         <action
@@ -26,7 +26,7 @@
     </fragment>
     <fragment
         android:id="@+id/stats"
-        android:name="com.geekymusketeers.medify.ui.mainFragments.stats.StatisticsFragment"
+        android:name="com.main.mobiletelehealthsystem.ui.mainFragments.stats.StatisticsFragment"
         android:label="fragment_statistics"
         tools:layout="@layout/fragment_statistics" >
         <action
@@ -36,7 +36,7 @@
     </fragment>
     <fragment
         android:id="@+id/appointment"
-        android:name="com.geekymusketeers.medify.ui.mainFragments.appointments.MyAppointmentFragment"
+        android:name="com.main.mobiletelehealthsystem.ui.mainFragments.appointments.MyAppointmentFragment"
         android:label="fragment_appointment"
         tools:layout="@layout/fragment_my_appointment" >
         <action
@@ -45,24 +45,24 @@
     </fragment>
     <fragment
         android:id="@+id/doctorDetailsFragment"
-        android:name="com.geekymusketeers.medify.ui.mainFragments.home.appointment_booking.DoctorDetailsFragment"
+        android:name="com.main.mobiletelehealthsystem.ui.mainFragments.home.appointment_booking.DoctorDetailsFragment"
         android:label="fragment_doctor_details"
         tools:layout="@layout/fragment_doctor_details" >
         <argument
             android:name="doctor_details"
-            app:argType="com.geekymusketeers.medify.model.User" />
+            app:argType="com.main.mobiletelehealthsystem.model.User" />
         <action
             android:id="@+id/action_doctorDetailsFragment_to_appointmentBookingFragment"
             app:destination="@id/appointmentBookingFragment" />
     </fragment>
     <fragment
         android:id="@+id/appointmentBookingFragment"
-        android:name="com.geekymusketeers.medify.ui.mainFragments.home.appointment_booking.AppointmentBookingFragment"
+        android:name="com.main.mobiletelehealthsystem.ui.mainFragments.home.appointment_booking.AppointmentBookingFragment"
         android:label="fragment_appointment_booking"
         tools:layout="@layout/fragment_appointment_booking" >
         <argument
             android:name="doctor_details"
-            app:argType="com.geekymusketeers.medify.model.User" />
+            app:argType="com.main.mobiletelehealthsystem.model.User" />
         <action
             android:id="@+id/action_appointmentBookingFragment_to_bookingSummaryFragment"
             app:destination="@id/bookingSummaryFragment"
@@ -70,16 +70,16 @@
     </fragment>
     <fragment
         android:id="@+id/bookingSummaryFragment"
-        android:name="com.geekymusketeers.medify.ui.mainFragments.home.appointment_booking.BookingSummaryFragment"
+        android:name="com.main.mobiletelehealthsystem.ui.mainFragments.home.appointment_booking.BookingSummaryFragment"
         android:label="fragment_booking_summary"
         tools:layout="@layout/fragment_booking_summary" >
         <argument
             android:name="summary"
-            app:argType="com.geekymusketeers.medify.model.Summary" />
+            app:argType="com.main.mobiletelehealthsystem.model.Summary" />
     </fragment>
     <fragment
         android:id="@+id/patientQueueFragment"
-        android:name="com.geekymusketeers.medify.ui.mainFragments.appointments.PatientQueueFragment"
+        android:name="com.main.mobiletelehealthsystem.ui.mainFragments.appointments.PatientQueueFragment"
         android:label="fragment_patient_queue"
         tools:layout="@layout/fragment_patient_queue" >
         <argument
@@ -95,16 +95,16 @@
     </fragment>
     <fragment
         android:id="@+id/addStatsDataFragment"
-        android:name="com.geekymusketeers.medify.ui.mainFragments.stats.AddStatsDataFragment"
+        android:name="com.main.mobiletelehealthsystem.ui.mainFragments.stats.AddStatsDataFragment"
         android:label="fragment_add_stats_data"
         tools:layout="@layout/fragment_add_stats_data" >
         <argument
             android:name="stats"
-            app:argType="com.geekymusketeers.medify.model.HealthData" />
+            app:argType="com.main.mobiletelehealthsystem.model.HealthData" />
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.geekymusketeers.medify.ui.mainFragments.settings.profile.ProfileFragment"
+        android:name="com.main.mobiletelehealthsystem.ui.mainFragments.settings.profile.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>

@@ -1,18 +1,18 @@
-package com.geekymusketeers.medify.ui.auth.signInScreen
+package com.main.mobiletelehealthsystem.ui.auth.signInScreen
 
 import android.app.Application
 import android.content.SharedPreferences
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.geekymusketeers.medify.base.BaseViewModel
-import com.geekymusketeers.medify.model.User
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.Logger
-import com.geekymusketeers.medify.utils.SharedPrefsExtension.saveUserToSharedPrefs
-import com.geekymusketeers.medify.utils.Validator.Companion.isValidEmail
-import com.geekymusketeers.medify.utils.Validator.Companion.isValidPassword
+
 import com.google.firebase.database.FirebaseDatabase
-import com.google.gson.Gson
+import com.main.mobiletelehealthsystem.base.BaseViewModel
+import com.main.mobiletelehealthsystem.model.User
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.Logger
+import com.main.mobiletelehealthsystem.utils.SharedPrefsExtension.saveUserToSharedPrefs
+import com.main.mobiletelehealthsystem.utils.Validator.Companion.isValidEmail
+import com.main.mobiletelehealthsystem.utils.Validator.Companion.isValidPassword
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

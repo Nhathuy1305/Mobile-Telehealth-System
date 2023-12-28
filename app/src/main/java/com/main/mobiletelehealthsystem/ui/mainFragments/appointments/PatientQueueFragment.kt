@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.mainFragments.appointments
+package com.main.mobiletelehealthsystem.ui.mainFragments.appointments
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -10,14 +10,14 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.geekymusketeers.medify.base.ViewModelFactory
-import com.geekymusketeers.medify.databinding.FragmentPatientQueueBinding
-import com.geekymusketeers.medify.databinding.RatingModalBinding
-import com.geekymusketeers.medify.model.DoctorAppointment
-import com.geekymusketeers.medify.model.Rating
-import com.geekymusketeers.medify.ui.adapter.PatientQueueAdapter
-import com.geekymusketeers.medify.utils.DialogUtil.createBottomSheet
-import com.geekymusketeers.medify.utils.DialogUtil.setBottomSheet
+import com.main.mobiletelehealthsystem.base.ViewModelFactory
+import com.main.mobiletelehealthsystem.databinding.FragmentPatientQueueBinding
+import com.main.mobiletelehealthsystem.databinding.RatingModalBinding
+import com.main.mobiletelehealthsystem.model.DoctorAppointment
+import com.main.mobiletelehealthsystem.model.Rating
+import com.main.mobiletelehealthsystem.ui.adapter.PatientQueueAdapter
+import com.main.mobiletelehealthsystem.utils.DialogUtil.createBottomSheet
+import com.main.mobiletelehealthsystem.utils.DialogUtil.setBottomSheet
 import java.text.SimpleDateFormat
 
 

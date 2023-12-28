@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.mainFragments.home.appointment_booking
+package com.main.mobiletelehealthsystem.ui.mainFragments.home.appointment_booking
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -12,13 +12,13 @@ import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.geekymusketeers.medify.R
-import com.geekymusketeers.medify.base.ViewModelFactory
-import com.geekymusketeers.medify.databinding.FragmentAppointmentBookingBinding
-import com.geekymusketeers.medify.model.Summary
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.Utils
-import com.geekymusketeers.medify.utils.Utils.show
+import com.main.mobiletelehealthsystem.R
+import com.main.mobiletelehealthsystem.base.ViewModelFactory
+import com.main.mobiletelehealthsystem.databinding.FragmentAppointmentBookingBinding
+import com.main.mobiletelehealthsystem.model.Summary
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.Utils
+import com.main.mobiletelehealthsystem.utils.Utils.show
 import com.google.android.material.datepicker.CalendarConstraints
 import com.google.android.material.datepicker.DateValidatorPointForward
 import com.google.android.material.datepicker.MaterialDatePicker

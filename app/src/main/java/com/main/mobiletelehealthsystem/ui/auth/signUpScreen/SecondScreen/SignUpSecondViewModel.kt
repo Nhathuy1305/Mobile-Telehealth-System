@@ -1,16 +1,16 @@
-package com.geekymusketeers.medify.ui.auth.signUpScreen.SecondScreen
+package com.main.mobiletelehealthsystem.ui.auth.signUpScreen.SecondScreen
 
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.geekymusketeers.medify.base.BaseViewModel
-import com.geekymusketeers.medify.model.Doctor
-import com.geekymusketeers.medify.model.User
-import com.geekymusketeers.medify.ui.auth.signUpScreen.SignUpRepository
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.Logger
+import com.main.mobiletelehealthsystem.ui.auth.signUpScreen.SignUpRepository
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
+import com.main.mobiletelehealthsystem.base.BaseViewModel
+import com.main.mobiletelehealthsystem.model.Doctor
+import com.main.mobiletelehealthsystem.model.User
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.Logger
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

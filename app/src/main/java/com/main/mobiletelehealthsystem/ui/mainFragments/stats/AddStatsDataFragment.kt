@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.mainFragments.stats
+package com.main.mobiletelehealthsystem.ui.mainFragments.stats
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -11,10 +11,10 @@ import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.geekymusketeers.medify.base.ViewModelFactory
-import com.geekymusketeers.medify.databinding.FragmentAddStatsDataBinding
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.Logger
+import com.main.mobiletelehealthsystem.base.ViewModelFactory
+import com.main.mobiletelehealthsystem.databinding.FragmentAddStatsDataBinding
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.Logger
 
 
 class AddStatsDataFragment : Fragment() {

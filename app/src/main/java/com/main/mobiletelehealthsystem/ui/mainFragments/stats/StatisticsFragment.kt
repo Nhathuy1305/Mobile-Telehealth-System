@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.mainFragments.stats
+package com.main.mobiletelehealthsystem.ui.mainFragments.stats
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -17,13 +17,13 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.geekymusketeers.medify.R
-import com.geekymusketeers.medify.base.ViewModelFactory
-import com.geekymusketeers.medify.databinding.FragmentStatisticsBinding
-import com.geekymusketeers.medify.model.HealthData
-import com.geekymusketeers.medify.ui.adapter.StatsListAdapter
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.Logger
+import com.main.mobiletelehealthsystem.R
+import com.main.mobiletelehealthsystem.base.ViewModelFactory
+import com.main.mobiletelehealthsystem.databinding.FragmentStatisticsBinding
+import com.main.mobiletelehealthsystem.model.HealthData
+import com.main.mobiletelehealthsystem.ui.adapter.StatsListAdapter
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.Logger
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import java.util.*

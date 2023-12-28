@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui
+package com.main.mobiletelehealthsystem.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,9 +8,9 @@ import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
-import com.geekymusketeers.medify.R
-import com.geekymusketeers.medify.databinding.ActivityHomeBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.main.mobiletelehealthsystem.R
+import com.main.mobiletelehealthsystem.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
 
@@ -52,6 +52,7 @@ class HomeActivity : AppCompatActivity() {
 
     @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
+        super.onBackPressed()
 
         val navController: NavController = findNavController(R.id.fragmentContainerView)
         val count = navController.backQueue.size

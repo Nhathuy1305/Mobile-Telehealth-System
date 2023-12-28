@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.mainFragments.home
+package com.main.mobiletelehealthsystem.ui.mainFragments.home
 
 import android.app.AlertDialog
 import android.content.Context
@@ -14,23 +14,24 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.geekymusketeers.medify.R
-import com.geekymusketeers.medify.adapter.DoctorListAdapter
-import com.geekymusketeers.medify.base.ViewModelFactory
-import com.geekymusketeers.medify.databinding.FragmentHomeBinding
-import com.geekymusketeers.medify.databinding.RatingDisputeLayoutBinding
-import com.geekymusketeers.medify.model.Doctor
-import com.geekymusketeers.medify.model.User
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.DialogUtil.createBottomSheet
-import com.geekymusketeers.medify.utils.DialogUtil.setBottomSheet
-import com.geekymusketeers.medify.utils.Logger
-import com.geekymusketeers.medify.utils.Utils
-import com.geekymusketeers.medify.utils.Utils.containsLetters
-import com.geekymusketeers.medify.utils.Utils.toStringWithoutSpaces
+import com.main.mobiletelehealthsystem.R
+
+import com.main.mobiletelehealthsystem.base.ViewModelFactory
+import com.main.mobiletelehealthsystem.databinding.FragmentHomeBinding
+import com.main.mobiletelehealthsystem.databinding.RatingDisputeLayoutBinding
+import com.main.mobiletelehealthsystem.model.Doctor
+import com.main.mobiletelehealthsystem.model.User
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.DialogUtil.createBottomSheet
+import com.main.mobiletelehealthsystem.utils.DialogUtil.setBottomSheet
+import com.main.mobiletelehealthsystem.utils.Logger
+import com.main.mobiletelehealthsystem.utils.Utils
+import com.main.mobiletelehealthsystem.utils.Utils.containsLetters
+import com.main.mobiletelehealthsystem.utils.Utils.toStringWithoutSpaces
 import com.google.android.material.chip.Chip
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import com.main.mobiletelehealthsystem.ui.adapter.DoctorListAdapter
 
 
 class HomeFragment : Fragment() {

@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.mainFragments.appointments
+package com.main.mobiletelehealthsystem.ui.mainFragments.appointments
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -14,13 +14,13 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.geekymusketeers.medify.base.ViewModelFactory
-import com.geekymusketeers.medify.databinding.FragmentMyAppointmentBinding
-import com.geekymusketeers.medify.model.Doctor
-import com.geekymusketeers.medify.ui.adapter.PatientAppointmentAdapter
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.DateTimeExtension
-import com.geekymusketeers.medify.utils.Utils.show
+import com.main.mobiletelehealthsystem.base.ViewModelFactory
+import com.main.mobiletelehealthsystem.databinding.FragmentMyAppointmentBinding
+import com.main.mobiletelehealthsystem.model.Doctor
+import com.main.mobiletelehealthsystem.ui.adapter.PatientAppointmentAdapter
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.DateTimeExtension
+import com.main.mobiletelehealthsystem.utils.Utils.show
 import com.google.android.material.datepicker.MaterialDatePicker
 import com.google.firebase.database.*
 import java.text.SimpleDateFormat

@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.adapter
+package com.main.mobiletelehealthsystem.ui.adapter
 
 import android.content.Context
 import android.graphics.Typeface
@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.res.ResourcesCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.geekymusketeers.medify.R
-import com.geekymusketeers.medify.databinding.SettingsItemBinding
-import com.geekymusketeers.medify.model.SettingsItem
+import com.main.mobiletelehealthsystem.R
+import com.main.mobiletelehealthsystem.databinding.SettingsItemBinding
+import com.main.mobiletelehealthsystem.model.SettingsItem
 
 class SettingsAdapter(
     val context : Context,

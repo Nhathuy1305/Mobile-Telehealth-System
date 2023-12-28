@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.mainFragments.settings.profile
+package com.main.mobiletelehealthsystem.ui.mainFragments.settings.profile
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -13,12 +13,12 @@ import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.geekymusketeers.medify.R
-import com.geekymusketeers.medify.base.ViewModelFactory
-import com.geekymusketeers.medify.databinding.FragmentProfileBinding
-import com.geekymusketeers.medify.model.User
-import com.geekymusketeers.medify.utils.Constants
-import com.geekymusketeers.medify.utils.DateTimeExtension
+import com.main.mobiletelehealthsystem.R
+import com.main.mobiletelehealthsystem.base.ViewModelFactory
+import com.main.mobiletelehealthsystem.databinding.FragmentProfileBinding
+import com.main.mobiletelehealthsystem.model.User
+import com.main.mobiletelehealthsystem.utils.Constants
+import com.main.mobiletelehealthsystem.utils.DateTimeExtension
 import com.google.android.material.datepicker.CalendarConstraints
 import com.google.android.material.datepicker.DateValidatorPointBackward
 import com.google.android.material.datepicker.MaterialDatePicker
@@ -52,6 +52,7 @@ class ProfileFragment : Fragment() {
     @RequiresApi(Build.VERSION_CODES.O)
     private fun initViews() {
         binding.run {
+
             nameEditText.setUserInputListener {
                 profileViewModel.setUserName(it)
             }

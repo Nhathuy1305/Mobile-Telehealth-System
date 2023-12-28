@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.auth.signInScreen
+package com.main.mobiletelehealthsystem.ui.auth.signInScreen
 
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthInvalidUserException

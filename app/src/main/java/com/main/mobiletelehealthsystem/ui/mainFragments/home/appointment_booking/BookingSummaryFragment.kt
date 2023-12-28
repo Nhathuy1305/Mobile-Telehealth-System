@@ -1,4 +1,4 @@
-package com.geekymusketeers.medify.ui.mainFragments.home.appointment_booking
+package com.main.mobiletelehealthsystem.ui.mainFragments.home.appointment_booking
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.geekymusketeers.medify.databinding.FragmentBookingSummaryBinding
+import com.main.mobiletelehealthsystem.databinding.FragmentBookingSummaryBinding
 
 
 class BookingSummaryFragment : Fragment() {
