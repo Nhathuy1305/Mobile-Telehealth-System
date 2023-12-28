@@ -9,6 +9,7 @@ import com.main.mobiletelehealthsystem.ui.auth.signUpScreen.SecondScreen.SignUpS
 import com.main.mobiletelehealthsystem.ui.auth.signUpScreen.firstScreen.SignUpFirstViewModel
 import com.main.mobiletelehealthsystem.ui.mainFragments.appointments.MyAppointmentsViewModel
 import com.main.mobiletelehealthsystem.ui.mainFragments.appointments.PatientQueueViewModel
+
 import com.main.mobiletelehealthsystem.ui.mainFragments.home.HomeViewModel
 import com.main.mobiletelehealthsystem.ui.mainFragments.home.appointment_booking.AppointmentBookingViewModel
 import com.main.mobiletelehealthsystem.ui.mainFragments.home.appointment_booking.DoctorDetailsViewModel

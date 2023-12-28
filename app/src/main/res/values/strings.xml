@@ -9,7 +9,7 @@
     <string name="dropdown_label">Disease Name:</string>
     <string name="disease_name">Disease Name</string>
     <string name="specialization">Specialization</string>
-    <string name="mailTo">mailto:geekymusketeers2024@gmail.com?Subject=Medify%20Android%20application%20feedback%20main&amp;Body=Your%20feedback%20is%20important%20to%20us%21</string>
+    <string name="mailTo">mailto:dnhuy.ityu@gmail.com?Subject=MobileTelehealth%20Android%20application%20feedback%20main&amp;Body=Your%20feedback%20is%20important%20to%20us%21</string>
     <string name="situation">Situation</string>
     <string name="cardiologist">Cardiologist</string>
     <string name="dentist">Dentist</string>
@@ -170,9 +170,9 @@
     <string name="create_a_new_account">Create a new account</string>
     <string name="password_hint">***************</string>
     <string name="phone_number_hint">+91 9876543210</string>
-    <string name="email_hint">johndoe123@gmail.com</string>
+    <string name="email_hint">peter.tranbede@gmail.com</string>
     <string name="email">Email</string>
-    <string name="name_hint">John Doe</string>
+    <string name="name_hint">Peter Tran</string>
     <string name="name">Name</string>
     <string name="phone_number">Phone Number</string>
     <string name="password">Password</string>
@@ -180,7 +180,7 @@
     <string name="already_have_an_account">Already have an account?</string>
     <string name="login_text">Login</string>
     <string name="profile_details">Profile Details</string>
-    <string name="address_hint">42/C Devanagari, Bangalore - XXXXXX</string>
+    <string name="address_hint">Tan lap, Dong Hoa, Di An, Binh Duong</string>
     <string name="is_doctor_hint">No, I\'m not a Doctor</string>
     <string name="are_you_a_doctor">Are you a Doctor?</string>
     <string name="address">Address</string>

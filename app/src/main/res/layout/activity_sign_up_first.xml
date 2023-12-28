@@ -54,7 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <com.geekymusketeers.presin.ui.custom_views.CustomEditText
+                <com.main.mobiletelehealthsystem.ui.custom_views.CustomEditText
                     android:id="@+id/name_edit_text"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <com.geekymusketeers.presin.ui.custom_views.CustomEditText
+                <com.main.mobiletelehealthsystem.ui.custom_views.CustomEditText
                     android:id="@+id/email_edit_text"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
                     app:layout_constraintStart_toStartOf="@+id/name_edit_text"
                     app:layout_constraintTop_toBottomOf="@+id/name_edit_text" />
 
-                <com.geekymusketeers.presin.ui.custom_views.CustomEditText
+                <com.main.mobiletelehealthsystem.ui.custom_views.CustomEditText
                     android:id="@+id/phone_edit_text"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -90,7 +90,7 @@
                     app:layout_constraintStart_toStartOf="@+id/email_edit_text"
                     app:layout_constraintTop_toBottomOf="@+id/email_edit_text" />
 
-                <com.geekymusketeers.presin.ui.custom_views.CustomEditText
+                <com.main.mobiletelehealthsystem.ui.custom_views.CustomEditText
                     android:id="@+id/age_edit_text"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -101,7 +101,7 @@
                     app:layout_constraintStart_toStartOf="@+id/phone_edit_text"
                     app:layout_constraintTop_toBottomOf="@+id/phone_edit_text" />
 
-                <com.geekymusketeers.presin.ui.custom_views.CustomSpinnerEditText
+                <com.main.mobiletelehealthsystem.ui.custom_views.CustomSpinnerEditText
                     android:id="@+id/gender_edit_text"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -112,7 +112,7 @@
                     app:layout_constraintStart_toStartOf="@+id/age_edit_text"
                     app:layout_constraintTop_toBottomOf="@+id/age_edit_text" />
 
-                <com.geekymusketeers.presin.ui.custom_views.CustomEditText
+                <com.main.mobiletelehealthsystem.ui.custom_views.CustomEditText
                     android:id="@+id/password_edit_text"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -128,7 +128,7 @@
 
         </ScrollView>
 
-        <com.geekymusketeers.presin.ui.custom_views.CustomButton
+        <com.main.mobiletelehealthsystem.ui.custom_views.CustomButton
             android:id="@+id/next_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

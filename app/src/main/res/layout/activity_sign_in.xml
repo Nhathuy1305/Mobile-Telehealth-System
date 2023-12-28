@@ -54,7 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <com.geekymusketeers.presin.ui.custom_views.CustomEditText
+                <com.main.mobiletelehealthsystem.ui.custom_views.CustomEditText
                     android:id="@+id/email_edit_text"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <com.geekymusketeers.presin.ui.custom_views.CustomEditText
+                <com.main.mobiletelehealthsystem.ui.custom_views.CustomEditText
                     android:id="@+id/password_edit_text"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
 
         </ScrollView>
 
-        <com.geekymusketeers.presin.ui.custom_views.CustomButton
+        <com.main.mobiletelehealthsystem.ui.custom_views.CustomButton
             android:id="@+id/login_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
