@@ -28,7 +28,7 @@ class StatisticsViewModel(application: Application) : BaseViewModel(application)
     fun setStatsList() = viewModelScope.launch(Dispatchers.IO) {
         val userId = userLiveData.value?.UID
         val tempStatsList = mutableListOf<HealthData>()
-        FirebaseDatabase.getInstance().reference.child(Constants.Users).child(userId!!)
+        FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").reference.child(Constants.Users).child(userId!!)
             .child(Constants.HealthData).addValueEventListener(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     snapshot.children.forEach { healthDataSnapshot ->

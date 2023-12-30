@@ -40,7 +40,7 @@ class EditProfileActivity : AppCompatActivity() {
     private fun updateData(name: String, age: String, phoneno: String) {
 
         var userID = sharedPreference.getString("uid", "Not found").toString()
-        db = FirebaseDatabase.getInstance().getReference("Users")
+        db = FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").getReference("Users")
         val user = mapOf(
             "name" to name,
             "age" to age,

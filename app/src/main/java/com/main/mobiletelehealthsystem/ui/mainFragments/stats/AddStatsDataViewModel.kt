@@ -89,7 +89,7 @@ class AddStatsDataViewModel(application: Application) : BaseViewModel(applicatio
 
     private fun pushIntoFirebase() = viewModelScope.launch(Dispatchers.IO) {
         val userId = userLiveData.value?.UID
-        FirebaseDatabase.getInstance().reference.child(Constants.Users).child(userId!!)
+        FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").reference.child(Constants.Users).child(userId!!)
             .child(Constants.HealthData).child(healthId.value!!).setValue(healthData.value)
             .addOnCompleteListener {
                 if (it.isSuccessful) {

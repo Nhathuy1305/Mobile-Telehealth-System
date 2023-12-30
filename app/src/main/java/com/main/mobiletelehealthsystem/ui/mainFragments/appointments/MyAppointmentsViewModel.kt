@@ -18,7 +18,7 @@ import com.google.firebase.database.ValueEventListener
 class MyAppointmentsViewModel(application: Application) : BaseViewModel(application) {
 
     val userLiveData = MutableLiveData<User>()
-    private val databaseReference = FirebaseDatabase.getInstance().reference.child(Constants.Users)
+    private val databaseReference = FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").reference.child(Constants.Users)
     val myAppointmentList = MutableLiveData<List<PatientAppointment>>()
 
     fun getAppointmentsForTheDate(date: String) {

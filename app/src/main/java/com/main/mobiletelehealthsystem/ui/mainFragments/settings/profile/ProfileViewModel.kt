@@ -126,7 +126,7 @@ class ProfileViewModel(application: Application) : BaseViewModel(application) {
             "phone" to phone,
             "address" to address
         )
-        FirebaseDatabase.getInstance().reference.child(Constants.Users).child(userID)
+        FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").reference.child(Constants.Users).child(userID)
             .updateChildren(user)
             .addOnCompleteListener {
                 if (it.isSuccessful) {

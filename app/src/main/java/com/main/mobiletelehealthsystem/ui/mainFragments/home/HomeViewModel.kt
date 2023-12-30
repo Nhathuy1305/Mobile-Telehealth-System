@@ -39,7 +39,7 @@ class HomeViewModel(application: Application) : BaseViewModel(application) {
 
 
     fun getTotalRating() = viewModelScope.launch(Dispatchers.IO) {
-        FirebaseDatabase.getInstance().reference.child(Constants.Users).child(user.value?.UID!!)
+        FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").reference.child(Constants.Users).child(user.value?.UID!!)
             .addValueEventListener(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     if (snapshot.child("totalRating").exists()) {
@@ -53,7 +53,7 @@ class HomeViewModel(application: Application) : BaseViewModel(application) {
     }
 
     fun getDoctorList() {
-        FirebaseDatabase.getInstance().reference.child(Constants.Users)
+        FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").reference.child(Constants.Users)
             .addValueEventListener(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     snapshot.children.forEach {

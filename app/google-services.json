@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "439194467466",
+    "firebase_url": "https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "kotlin-telehealth",
     "storage_bucket": "kotlin-telehealth.appspot.com"
   },
@@ -12,7 +13,20 @@
           "package_name": "com.main.mobiletelehealthsystem"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "439194467466-vb5a5851b6ifigai3rb3goq0ah5hqulg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.main.mobiletelehealthsystem",
+            "certificate_hash": "d17e82faf56df3d43696634cabc716eae77d8790"
+          }
+        },
+        {
+          "client_id": "439194467466-vgiklp803t87bqbjasm0p7pn5cvso36h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDocMeBgK_FcFZRDeWR0vaq383aVMlqHds"
@@ -20,7 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439194467466-vgiklp803t87bqbjasm0p7pn5cvso36h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

@@ -164,7 +164,7 @@ class AppointmentBookingViewModel(application: Application) : BaseViewModel(appl
         var res = true
         return withContext(Dispatchers.IO) {
 
-            FirebaseDatabase.getInstance().getReference("Users").child(userId)
+            FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").getReference("Users").child(userId)
                 .child("PatientsAppointments").child(appointmentP["Date"]!!).child(doctorUid)
                 .setValue(appointmentP)
                 .addOnSuccessListener {
@@ -186,7 +186,7 @@ class AppointmentBookingViewModel(application: Application) : BaseViewModel(appl
         var result = true
         return withContext(Dispatchers.IO) {
 
-            FirebaseDatabase.getInstance().getReference(Constants.Users).child(doctorUid)
+            FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").getReference(Constants.Users).child(doctorUid)
                 .child("DoctorsAppointments").child(appointmentD["Date"]!!).child(userId)
                 .setValue(appointmentD)
                 .addOnSuccessListener {
