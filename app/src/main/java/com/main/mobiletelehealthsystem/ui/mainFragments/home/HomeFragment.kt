@@ -57,7 +57,7 @@ class HomeFragment : Fragment() {
     }
 
     private fun initViews() {
-        db = FirebaseDatabase.getInstance().reference
+        db = FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").reference
         sharedPreference = requireActivity().getSharedPreferences("UserData", Context.MODE_PRIVATE)
 
         binding.doctorData.addTextChangedListener {

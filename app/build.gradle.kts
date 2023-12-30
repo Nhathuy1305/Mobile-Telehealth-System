@@ -63,6 +63,7 @@ dependencies {
     implementation ("com.google.firebase:firebase-auth-ktx:21.0.8")
     implementation ("com.google.firebase:firebase-database-ktx:20.0.6")
     implementation ("com.google.firebase:firebase-storage-ktx:20.0.2")
+    implementation ("com.google.firebase:firebase-appcheck-safetynet:16.0.0")
 
     // Switch
     implementation ("com.github.GwonHyeok:StickySwitch:0.0.16")

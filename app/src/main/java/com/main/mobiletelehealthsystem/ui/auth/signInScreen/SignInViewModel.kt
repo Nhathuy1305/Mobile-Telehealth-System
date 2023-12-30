@@ -63,7 +63,7 @@ class SignInViewModel(application: Application) : BaseViewModel(application) {
     }
 
     fun getUserFromFirebase() = viewModelScope.launch(Dispatchers.IO) {
-        FirebaseDatabase.getInstance().reference.child(Constants.Users).child(userIDLiveData.value!!)
+        FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").reference.child(Constants.Users).child(userIDLiveData.value!!)
             .get().addOnSuccessListener {
 
                 try {

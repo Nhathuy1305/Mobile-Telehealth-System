@@ -47,7 +47,7 @@ class AddPrescriptionActivity : AppCompatActivity() {
 
 
         //mStorage = FirebaseStorage.getInstance().reference
-        databaseReference = FirebaseDatabase.getInstance().reference
+        databaseReference = FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").reference
 
 
         //Browse PDF from the file manager

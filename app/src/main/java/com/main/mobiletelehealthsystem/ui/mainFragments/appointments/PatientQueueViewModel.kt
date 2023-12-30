@@ -33,7 +33,7 @@ class PatientQueueViewModel(application: Application) : BaseViewModel(applicatio
 
     fun getPatientsListFromFirebase() {
         val patientsList = mutableListOf<DoctorAppointment>()
-        FirebaseDatabase.getInstance().getReference(Constants.Users).child(doctorUserID.value.toString())
+        FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").getReference(Constants.Users).child(doctorUserID.value.toString())
             .child("DoctorsAppointments").child(selectedDate.value.toString()).orderByChild("TotalPoints")
             .addValueEventListener(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
@@ -62,7 +62,7 @@ class PatientQueueViewModel(application: Application) : BaseViewModel(applicatio
 
     fun updateRating(rating: Rating) {
         try {
-            FirebaseDatabase.getInstance()
+            FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app")
                 .getReference(Constants.Users).child(rating.patientId).get()
                 .addOnSuccessListener { snapShot ->
 

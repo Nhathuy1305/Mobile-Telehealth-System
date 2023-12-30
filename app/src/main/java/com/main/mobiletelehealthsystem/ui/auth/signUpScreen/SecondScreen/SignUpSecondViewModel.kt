@@ -66,7 +66,7 @@ class SignUpSecondViewModel(application: Application) : BaseViewModel(applicatio
             return@launch
         }
         userLiveData.value!!.UID = userID
-        FirebaseDatabase.getInstance().reference.child(Constants.Users).child(userID)
+        FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").reference.child(Constants.Users).child(userID)
             .setValue(userLiveData.value).addOnSuccessListener {
                 FirebaseAuth.getInstance().signOut()
                 Logger.debugLog("User database created successfully and userID is $userID")
@@ -80,7 +80,7 @@ class SignUpSecondViewModel(application: Application) : BaseViewModel(applicatio
     fun createUserDatabase() = viewModelScope.launch(Dispatchers.IO) {
         val firebaseAuth = FirebaseAuth.getInstance()
         val userId = firebaseAuth.currentUser?.uid.toString()
-        FirebaseDatabase.getInstance().reference.child(Constants.Users).child(userId)
+        FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").reference.child(Constants.Users).child(userId)
             .setValue(userLiveData.value).addOnSuccessListener {
                 Logger.debugLog("User database created successfully and userID is $userId")
                 userDataBaseUpdate.value = true
@@ -89,7 +89,7 @@ class SignUpSecondViewModel(application: Application) : BaseViewModel(applicatio
                 userDataBaseUpdate.value = false
             }
         if (userLiveData.value!!.isDoctor == Doctor.IS_DOCTOR.toItemString()) {
-            FirebaseDatabase.getInstance().reference.child(Constants.Doctor).child(userId)
+            FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").reference.child(Constants.Doctor).child(userId)
                 .setValue(userLiveData.value).addOnSuccessListener {
                     Logger.debugLog("Doctor database created successfully")
                 }.addOnFailureListener {

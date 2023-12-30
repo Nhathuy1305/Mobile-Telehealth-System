@@ -123,7 +123,7 @@ class SettingsFragment : Fragment() {
 
     private fun navigateToUploadPrescription() {
         startActivity(Intent(requireActivity(), AddPrescriptionActivity::class.java))
-        FirebaseDatabase.getInstance().reference.child(Constants.Users)
+        FirebaseDatabase.getInstance("https://kotlin-telehealth-default-rtdb.asia-southeast1.firebasedatabase.app").reference.child(Constants.Users)
             .child(settingsViewModel.userLiveData.value!!.UID.toString()).child(Constants.Prescription)
             .addValueEventListener(object :
                 ValueEventListener {
