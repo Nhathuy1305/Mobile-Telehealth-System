@@ -10,7 +10,7 @@ import com.main.mobiletelehealthsystem.databinding.ActivityForgotPasswordBinding
 class ForgotPasswordActivity : AppCompatActivity() {
 
     private lateinit var binding : ActivityForgotPasswordBinding
-    private val forgotPasswordViewModel by viewModels<ForgotPasswordViewModel> { ViewModelFactory() }
+    private val forgotPasswordViewModael by viewModels<ForgotPasswordViewModel> { ViewModelFactory() }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
