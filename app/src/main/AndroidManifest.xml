@@ -17,11 +17,11 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/medify_logo"
+        android:icon="@drawable/mobiheal_logo"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/medify_logo"
+        android:roundIcon="@drawable/mobiheal_logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Medify"
+        android:theme="@style/Theme.Mobiheal"
         tools:targetApi="31">
         <activity
             android:name=".ui.auth.forgotPassword.ForgotPasswordActivity"

@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.309"
-        app:srcCompat="@drawable/medify_logo" />
+        app:srcCompat="@drawable/mobiheal_logo" />
 
     <TextView
         android:id="@+id/textView"
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:fontFamily="@font/dm_sans_bold"
-        android:text="Medify"
+        android:text="MOBIHEAL"
         android:textColor="@color/black"
         android:textSize="40dp"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"

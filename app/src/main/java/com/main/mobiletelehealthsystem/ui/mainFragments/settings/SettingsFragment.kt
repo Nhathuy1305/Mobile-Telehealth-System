@@ -155,7 +155,7 @@ class SettingsFragment : Fragment() {
         val aboutUsDialog = BottomsheetModalBinding.inflate(layoutInflater)
         val aboutUsBottomSheet = requireActivity().createBottomSheet()
         aboutUsDialog.apply {
-            paragraphHeading.text = getString(R.string.welcome_to_medify)
+            paragraphHeading.text = getString(R.string.welcome_to_mobiheal)
             paragraphContent.text = getString(R.string.description)
         }
         aboutUsDialog.root.setBottomSheet(aboutUsBottomSheet)
